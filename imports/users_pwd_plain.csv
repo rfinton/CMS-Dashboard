@@ -1,0 +1,94 @@
+clinic_fk,clinic,ipaddress,username,password
+1,Anchorage on Dimond,206.174.47.134,cms_user1,0qT8Du!@L
+2,Anchorage on Laurel,75.107.66.116,cms_user2,g@XBi9y6M
+3,Wasilla,67.54.152.12,cms_user3,ixYIL*oTr
+3,Wasilla,66.58.176.47,cms_user3,ixYIL*oTr
+4,Buckeye,70.184.89.25,cms_user4,kI^oEiQW2
+4,Buckeye,71.223.94.95,cms_user4,kI^oEiQW2
+5,Casa Grande,174.70.8.242,cms_user5,0yIiN1*C4
+5,Casa Grande,198.45.138.194,cms_user5,0yIiN1*C4
+6,Glendale,172.19.246.13,cms_user6,8rH$2^hlz
+6,Glendale,70.182.63.255,cms_user6,8rH$2^hlz
+7,Kingman,50.38.172.148,cms_user7,)8YCyMDSu
+7,Kingman,24.156.88.83,cms_user7,)8YCyMDSu
+8,Lake Havasu,50.38.191.251,cms_user8,rO&s4^17y
+8,Lake Havasu,24.121.243.20,cms_user8,rO&s4^17y
+9,Mesa on Arbor,72.111.58.242,cms_user9,e2kY$yZ4V
+9,Mesa on Arbor,98.191.2.155,cms_user9,e2kY$yZ4V
+10,Mesa on Main,198.45.181.171,cms_user10,4IZiLu#@V
+10,Mesa on Main,98.172.88.55,cms_user10,4IZiLu#@V
+11,Nogales,67.54.145.91,cms_user11,Z$HuQ@nO(
+11,Nogales,67.128.205.10,cms_user11,Z$HuQ@nO(
+12,Peoria,98.175.181.14,cms_user12,F&S2t6mJL
+13,Phoenix - Alpha,68.228.106.193,cms_user13,Cd)yRb8NM
+14,Phoenix on 23rd Ave,209.181.98.133,cms_user14,eCXmn^WS9
+14,Phoenix on 23rd Ave,184.178.29.77,cms_user14,eCXmn^WS9
+15,Phoenix on 7th Ave,4.17.226.230,cms_user15,tfZ3K2#Rh
+15,Phoenix on 7th Ave,70.182.63.166,cms_user15,tfZ3K2#Rh
+16,Phoenix on Cactus,75.167.239.34,cms_user16,cs^6JRB2N
+16,Phoenix on Cactus,24.249.43.250,cms_user16,cs^6JRB2N
+16,Phoenix on Cactus,70.182.56.229,cms_user16,cs^6JRB2N
+17,Phoenix on Camelback,70.182.54.173,cms_user17,v)x#jc!Q7
+18,Phoenix on Northern,72.173.79.100,cms_user18,mTHPQ$FSe
+18,Phoenix on Northern,70.182.62.107,cms_user18,mTHPQ$FSe
+19,Phoenix on University,72.173.78.185,cms_user19,aAJmh^i6x
+19,Phoenix on University,65.141.211.162,cms_user19,aAJmh^i6x
+20,Prescott Valley,72.24.230.10,cms_user20,Ge^Pk5Qo2
+21,Safford,174.18.49.22,cms_user21,0TYGFcQRP
+21,Safford,69.92.137.214,cms_user21,0TYGFcQRP
+22,Show Low,24.119.135.6,cms_user22,xdH7Lv2P^
+23,Sierra Vista,67.1.11.131,cms_user23,dok7BRpe%
+23,Sierra Vista,70.167.216.7,cms_user23,dok7BRpe%
+24,Tempe on Rural,68.14.238.6,cms_user24,oE(sZ)API
+24,Tempe on Rural,198.45.179.5,cms_user24,oE(sZ)API
+25,Tucson - Northwest,96.91.74.161,cms_user25,KVJWv()#%
+25,Tucson - Northwest,70.182.60.145,cms_user25,KVJWv()#%
+26,Tucson on Broadway,24.248.190.1,cms_user26,5!9m^KNJi
+27,Tucson on Carondelet,70.167.210.243,cms_user27,oOMSeDs)c
+28,Tucson on Park,198.45.131.240,cms_user28,OsZg%FEr)
+28,Tucson on Park,72.194.189.126,cms_user28,OsZg%FEr)
+29,Yuma,184.98.255.231,cms_user29,fOnPHl&Lo
+29,Yuma,98.153.170.166,cms_user29,fOnPHl&Lo
+30,Marion,71.46.70.190,cms_user30,WkVGgq%Cc
+30,Marion,12.238.5.114,cms_user30,WkVGgq%Cc
+31,Dearborn Heights,50.249.183.125,cms_user31,0(lV6mXG5
+32,Sterling Heights,99.37.172.59,cms_user32,3wIynj9gM
+32,Sterling Heights,96.76.253.69,cms_user32,3wIynj9gM
+33,Billings,72.174.89.154,cms_user33,wU&nvxIyS
+34,Bozeman,97.121.196.70,cms_user34,nTIqKswi4
+34,Bozeman,208.75.142.90,cms_user34,nTIqKswi4
+35,Kalispell,69.144.144.146,cms_user35,rKe2gEvWk
+36,Missoula,71.32.56.79,cms_user36,yc!oN$&U6
+36,Missoula,69.146.224.2,cms_user36,yc!oN$&U6
+37,Fargo,184.99.174.22,cms_user37,Dl2nB3F#T
+37,Fargo,184.155.59.190,cms_user37,Dl2nB3F#T
+38,Grand Forks,209.169.219.98,cms_user38,(#$3Tojs5
+39,Minot,69.84.20.130,cms_user39,FO$)&ez@X
+40,Cleveland Heights,162.155.40.130,cms_user40,tJ0v)BSjH
+41,Columbus,76.232.35.100,cms_user41,&*elH@X$w
+41,Columbus,71.67.236.250,cms_user41,&*elH@X$w
+42,Kent OBOT,75.38.155.79,cms_user42,gtdxQl)Y1
+42,Kent OBOT,98.103.87.90,cms_user42,gtdxQl)Y1
+43,Kettering,98.100.12.178,cms_user43,GZWlx5p9%
+44,Lima,71.67.37.34,cms_user44,F5wCJN(le
+44,Lima,167.100.35.173,cms_user44,F5wCJN(le
+45,West Chester Township,71.67.217.122,cms_user45,t49LgskKh
+46,Austin on Ferguson,99.153.65.5,cms_user46,I*#SHpKrX
+46,Austin on Ferguson,75.87.58.226,cms_user46,I*#SHpKrX
+47,Austin on William Cannon,97.77.155.150,cms_user47,UNuDxv@mk
+47,Austin on William Cannon,104.63.132.100,cms_user47,UNuDxv@mk
+48,Cedar Park,104.55.105.209,cms_user48,#zu*sHd&V
+48,Cedar Park,24.173.47.2,cms_user48,#zu*sHd&V
+49,San Antonio,76.255.11.65,cms_user49,p2lLDBeWF
+49,San Antonio,50.84.202.2,cms_user49,p2lLDBeWF
+50,Fond du Lac,24.196.85.130,cms_user50,cdZtpvnB@
+50,Fond du Lac,47.225.192.138,cms_user50,cdZtpvnB@
+51,South Milwaukee,74.87.90.130,cms_user51,hJO87serq
+52,West Allis,98.100.205.42,cms_user52,V!$vEzToq
+52,West Allis,74.87.89.58,cms_user52,V!$vEzToq
+53,Aurora,216.160.153.207,cms_user53,9OaUlyeui
+54,Cleveland on Carnegie,24.172.201.2,cms_user54,h5zq2vC4i
+55,Roseville,50.212.191.53,cms_user55,Dl2nB3F#T
+1,,,cms_admin,Cm$2022!
+1,,98.20.103.34,rayf,Cm$2022!
+1,,172.58.68.212,rayf,Cm$2022!

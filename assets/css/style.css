@@ -1,0 +1,196 @@
+* { font-family: sans-serif; }
+html,
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+.nav-top { 
+	padding: 1rem; 
+	background: #014da5;
+	color: white; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+}
+.nav-top > a { 
+	color: white; 
+	text-decoration: none; 
+}
+.nav-side {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	height: 100vh;
+	padding-left: 1rem;
+	transform: translateX(100%);
+	will-change: transform;
+	transition: transform 0.4s ease-out;
+}
+.nav-side.show-side-menu {
+	transform: translateX(0);
+	box-shadow: -2px 0 8px #b6b8ba;
+}
+.nav-side > a {
+	text-decoration: none;
+	padding: 1.5rem 1rem;
+	color: #222;
+	display: block;
+}
+.nav-side > a:hover {
+	background: lightblue;
+}
+.fa {
+	color: #fff;
+	font-size: 2rem;
+	margin-left: 20px;
+}
+.nav-side .fa {
+	color: #222;
+	margin-left: 0;
+}
+.form-select {
+	width: auto;
+}
+#filter {
+	padding: 6rem 3rem;
+}
+#results-view {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h3 {
+	color: #fff;
+	background: #014da5;
+	padding: 12px;
+	text-align: center;
+}
+#stats, .charts {
+	padding: 1%;
+	color: #6aaa37;
+	height: fit-content;
+}
+.charts {
+	display: grid;
+	gap: 2rem 3rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 11px;
+}
+.charts #title {
+	font-size: inherit;
+}
+#clinics {
+	min-width: 620px;
+}
+#stats {
+	display: none;
+}
+#menu-page .container {
+	overflow-x: hidden;
+}
+#menu-page .category {
+	border-radius: 6px; 
+	background: #b9b8c042; 
+	padding: 15px;
+	transform: translateX(100px);
+	opacity: 0;
+	will-change: transform, opacity;
+}
+#menu-page .category > header { 
+	font-size: 1.5rem; 
+	text-align: center; 
+}
+#menu-page .category .form-switch { 
+	margin: 15px; 
+}
+#menu-page .bottom-bar { 
+	position: fixed; 
+	bottom: 0; 
+	left: 0; 
+	width: 100%; 
+	background: #fff; 
+	padding: 1rem; 
+	text-align: center; 
+	box-shadow: 0 -2px 8px gray; 
+	display: none;
+}
+#menu-page .bottom-bar > button { 
+	box-shadow: 2px 2px 8px gray; 
+}
+#menu-page .status-message {
+	position: fixed;
+	display: inline-block;
+	top: 6rem;
+	left: 2rem;
+	opacity: 0;
+	transform: translateX(-5rem);
+	transition: all 1s ease-in-out;
+	will-change: transform, opacity;
+}
+#menu-page .status-message.show {
+	opacity: 1;
+	transform: translateX(0);
+}
+#menu-page .status-message > .message {
+	background: gray;
+	color: #fff;
+	padding: .5rem 1.5rem;
+	border-radius: 4px;
+}
+#home-page {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#home-page #main-menu {
+	width: 100%;
+	height: 400px;
+	display: grid;
+	gap: 8px;
+	grid-template-columns: repeat(3, 200px);
+	justify-content: center;
+	align-items: center;
+}
+#home-page #main-menu > a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	text-decoration: none;
+	background: #014da5;
+	color: #fff;
+	font-family: sans-serif;
+	border-radius: 6px;
+	border-bottom: solid 3px darkblue;
+	border-right: solid 3px darkblue;
+	border-top: solid 3px rgb(57, 87, 188);
+	border-left: solid 3px rgb(57, 87, 188);
+}
+#home-page #main-menu > a#update {
+	background: #0f8825;
+	border-bottom: solid 3px rgb(6, 76, 20);
+	border-right: solid 3px rgb(6, 76, 20);
+	border-top: solid 3px rgb(57, 188, 103);
+	border-left: solid 3px rgb(57, 188, 103);
+}
+#home-page #main-menu > a:hover {
+	background: #2861a1;
+}
+#home-page #main-menu > a > .fa {
+	margin-left: 0;
+}
+.clinic-services {
+	padding-bottom: 6rem;
+}
